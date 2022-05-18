@@ -3,7 +3,6 @@ import YelpSearch from './YelpSearch';
 import WeatherSearch from './WeatherSearch';
 import { getPokemons, getYelpData, getWeatherData } from './services/fetch-utils';
 import './App.css';
-import Spinner from './Spinner';
 
 function App() {
   return (
