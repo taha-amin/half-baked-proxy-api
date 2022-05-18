@@ -33,6 +33,7 @@ export default function PokemonSearch() {
         {/* add inputs/labels for the pokemon name, using all the things we need with react forms. Don't forget to use the value property to sync this up with the default value in react state */}
         <button>Search</button>
       </form>
+      {/* Make a PokemonList component to import and use here. Use a ternery to display a loading spinner (make a <Spinner /> component for this) if the data is still loading. */}
       {isLoading ? (
         <Spinner />
       ) : (
@@ -45,7 +46,6 @@ export default function PokemonSearch() {
           </div>
         ))
       )}
-      {/* Make a PokemonList component to import and use here. Use a ternery to display a loading spinner (make a <Spinner /> component for this) if the data is still loading. */}
     </section>
   );
 }
