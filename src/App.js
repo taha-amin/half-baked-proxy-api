@@ -1,7 +1,6 @@
 import PokemonSearch from './PokemonSearch';
 import YelpSearch from './YelpSearch';
 import WeatherSearch from './WeatherSearch';
-import { getPokemons, getYelpData, getWeatherData } from './services/fetch-utils';
 import './App.css';
 
 function App() {
